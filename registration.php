@@ -47,7 +47,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
             $stmt->execute();
 
             // Send verification email with the link
-            $verification_link = "http://localhost:3000/lib/verify-email.php?token=$token";
+            $verification_link = "https://customer.hovsoltechnologies.com/lib/verify-email.php?token=$token";
             // Your email sending code here, including the $verification_link
             // Email sending code
             $to = $usernameEmail;

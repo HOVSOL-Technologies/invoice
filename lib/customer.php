@@ -1,5 +1,5 @@
 <?php
-
+include_once 'db_connection.php';
 class ClientDatabase {
     private $servername;
     private $username;
